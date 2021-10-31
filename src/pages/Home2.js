@@ -44,7 +44,7 @@ const Home2 = () => {
   };
   const submit = () => {
     increment();
-    const url = "https://corona-model-django.herokuapp.com/test-restult/";
+    const url = "https://corona-model-djnago.herokuapp.com/test-restult/";
     axios
       .post(url, FormData)
       .then((res) => {
